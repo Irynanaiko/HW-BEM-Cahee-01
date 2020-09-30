@@ -1,0 +1,144 @@
+/* RESET Styles */
+body,
+p,
+h2,
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1500px;
+}
+
+.header {
+    display: flex;
+    margin: 0 160px 0 160px;
+    padding-top: 45px;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__item {
+    list-style-type: none;
+    padding-left: 35px;
+}
+
+.nav__link {
+    width: 100px;
+    height: 15px;
+    height: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    border-top: 3px solid #ff6033 transparent;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.nav__link:hover {
+    border-top: 3px solid #ff6033;
+}
+
+.background {
+    height: 840px;
+    background-image: url(../img/milk.png);
+    position: relative;
+}
+
+.wrapper {
+    width: 400px;
+    margin-top: 240px;
+    margin-left: 130px;
+}
+
+.big-screen__title {
+    font-size: 60px;
+    line-height: 25px;
+    color: #262626;
+    font-family: "Raleway";
+}
+
+.big-screen__subtitle {
+    margin-top: 40px;
+    height: 85px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.big-screen__button {
+    width: 200px;
+    height: 55px;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    background-color: #ff6033;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.scroll {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.container {
+    height: 700px;
+    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #009f9f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__title {
+    font-size: 90px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.container__subtitle {
+    width: 545px;
+    height: 207px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 40px;
+}
